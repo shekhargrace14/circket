@@ -1,0 +1,32 @@
+[
+    {
+        "id":"1",
+        "date": "Dec 3, 2024",
+        "teamAlogo" :"./assets/club-2-copyright.webp",
+        "teamBlogo" :"./assets/logo.webp",
+        "teamAscore" :"140",
+        "teamBscore" : "150",
+        "league" : "Premier League",
+        "venue" : "Kolkata" 
+    },
+    {
+        "id":"1",
+        "date": "Dec 5, 2024",
+        "teamAlogo" :"./assets/club-4-copyright.webp",
+        "teamBlogo" :"./assets/club-5-copyright.webp",
+        "teamAscore" :"110",
+        "teamBscore" : "130",
+        "league" : "Premier League",
+        "venue" : "Goa" 
+    },
+    {
+        "id":"1",
+        "date": "Dec 10, 2024",
+        "teamAlogo" :"./assets/club-10-copyright.webp",
+        "teamBlogo" :"./assets/club-7-copyright.webp",
+        "teamAscore" :"140",
+        "teamBscore" : "150",
+        "league" : "Premier League",
+        "venue" : "Delhi" 
+    }
+]

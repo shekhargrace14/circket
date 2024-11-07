@@ -4,50 +4,229 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #262626;
+html {
+  overflow-x: hidden;
+  /* font-size: 10px; */
+  scroll-behavior: smooth;
 }
 
+body {
+  background-color: #262626;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+/* global css starts here  */
 a {
+  font-size: 1rem;
+  font-family: var(--font-family-secondary);
   text-decoration: none;
   color: white;
 }
 
+button,
+.button {
+  /* background-color: var(--color-primary); */
+  color: black;
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  min-width: 200px;
+}
+
+.btn-primary {
+  background-color: #2453d4;
+  color: var(--bg-dark-primary);
+  border: var(--border);
+}
+
+.btn-primary:hover {
+  background-color: #e03821;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--bg-dark-primary);
+  border: var(--border);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  color: var(--text-color-white);
+  margin: 0 0 0.5rem 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  font-family: "Inter Tight", sans-serif;
+  line-height: 1.7rem;
+  color: var(--text-color-white);
+  margin: 0.5rem 0;
+}
+
 /* header starts starts */
-header .container {
-  width: 90%;
-  margin: 1rem auto 0;
-  background-color: background-color;
+header {
+  top: 0;
+  z-index: 3;
+  padding: 0.4rem 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .container img {
+header img {
   width: 50%;
 }
-header .container nav {
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
 }
-header .container nav ul {
+header nav ul {
   display: flex;
   list-style: none;
   gap: 1.2rem;
 }
-header .container nav ul li {
+header nav ul li {
   text-transform: uppercase;
   font-family: "Inter Tight", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
-header .container nav .social {
+header nav .social {
   display: flex;
   gap: 1.2rem;
 }
-header .container nav .social i {
+header nav .social i {
   color: white;
 }
 
-/* header starts ends *//*# sourceMappingURL=main.css.map */
+/* header starts ends */
+/* hero starts here  */
+.hero {
+  top: 0;
+  background-image: url(../assets/bg-1.jpg);
+  background-size: cover;
+  background-position: top;
+  min-height: 100vh;
+}
+.hero .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.hero .container .row .column {
+  width: 50%;
+  color: white;
+}
+.hero .container .spacer {
+  padding: 8% 0;
+}
+
+/* header ends here */
+/* eventUpdate starts here */
+.eventUpdate {
+  background-color: hsl(180, 1%, 17%);
+  background-color: #dbe2e6;
+}
+.eventUpdate .container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.eventUpdate .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.eventUpdate .container .row .column {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.eventUpdate .container .row .column img {
+  width: 20%;
+}
+.eventUpdate .container .row .column .details {
+  text-align: center;
+}
+.eventUpdate .container .row .column .details .score {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.eventUpdate .container .row .column .details p {
+  font-size: 0.9rem;
+}
+
+/* eventUpdate ends here */
+/* blog starts here */
+.blog {
+  background-color: #dbe2e6;
+  background-color: hsl(180, 1%, 17%);
+}
+.blog .container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.blog .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.blog .container .row .column {
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blog .container .row .column img {
+  width: 100%;
+}
+
+/* blog ends here *//*# sourceMappingURL=main.css.map */
