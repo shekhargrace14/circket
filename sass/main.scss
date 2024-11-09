@@ -13,6 +13,7 @@ $border-radius: 2rem;
     margin: 0;
     box-sizing: border-box;
 }
+// global stad here 
 
 body {}
 
@@ -91,22 +92,27 @@ h6 {
     font-family: $font-primary;
     font-weight: 600;
     color: var(--text-color-white);
-    margin: 0 0 .5rem 0;
+    margin: 0 0 1rem 0;
 }
 
 h1 {
     font-size: 3.5rem;
     line-height: 4.5rem;
+    text-shadow: 2px 2px 2px black;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 4rem;
     line-height: 3.5rem;
+    margin: 0rem 0 2rem 0;
+
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 3rem;
+    margin: 1rem 0 1rem 0;
+    
 }
 
 h4 {
@@ -216,7 +222,7 @@ header {
 /* header ends here */
 /* eventUpdate starts here */
 .eventUpdate{
-    background-color: hsl(180, 1%, 17%);
+    background-color: hsl(0, 0%, 0%);
     background-color: #dbe2e6;
     .container{
         width: 90%;
@@ -259,6 +265,7 @@ header {
 .blog{
     background-color: #dbe2e6;
     background-color: hsl(180, 1%, 17%);
+    color: white;
     .container{
         width: 90%;
         margin: 0 auto;
@@ -274,6 +281,13 @@ header {
                 justify-content: space-between;
                 align-items: center;
                 // padding: .5rem 1rem;
+                .image{
+                    width: 100%;
+                    height: 25rem;
+                    overflow: hidden;
+                    background-color: rgb(220, 29, 29);
+                    
+                }
                 img{
                     width: 100%;
                 }
@@ -282,3 +296,61 @@ header {
     }
 }         
 /* blog ends here */
+/* news starts here */
+.news{
+    background-color: #dbe2e6;
+    background-color: hsl(180, 1%, 17%);
+    color: white;
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        padding: 80px 0;
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 1rem;
+            .column{
+                background-color: rgba(255, 255, 255, 0);
+                position: relative;
+
+                // display: flex;
+                // justify-content: space-between;
+                // align-items: center;
+                // padding: .5rem 1rem;
+                .image{
+                    width: 100%;
+                    height: 25rem;
+                    overflow: hidden;
+                    background-color: rgb(220, 29, 29);
+                    position: relative;
+
+                    img{
+                        object-fit: cover;
+                        height: 25rem;
+                        width: 100%;
+                        
+                    }
+                    .overlay {
+                        position: absolute;
+                        bottom: 0;
+                        background: rgb(0, 0, 0);
+                        background: rgba(0, 0, 0, 0.4); /* Black see-through */
+                        width: 100%;
+                        font-size: 20px;
+                        padding: 20px;
+                        text-align: center;
+                        top: 0;
+                    }
+                }
+                .details{
+                    bottom:0;
+                    // left: 1rem;
+                    padding: 0 1rem;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}         
+/* news ends here */

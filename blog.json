@@ -8,9 +8,30 @@
         "image":"./assets/blog1img.jpg",
         "content" : "dipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsan. Cras sollicitudin, ipsum eget blandit pulvinar. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.",
         "like" : "80",
-        "Comments" : "4" 
+        "comments" : "4" 
     },
     {
+        "id":"1",
+        "day": "3",
+        "month": "Dec",
+        "year": "2023",
+        "title": "The game is on! Watch the best highlights of the 2023 season",
+        "image":"./assets/blog2img.jpg",
+        "content" : "dipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsan. Cras sollicitudin, ipsum eget blandit pulvinar. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.",
+        "like" : "80",
+        "comments" : "4"
+    },
+    {
+        "id":"3",
+        "day": "3",
+        "month": "Dec",
+        "year": "2023",
+        "title": "The game is on! Watch the best highlights of the 2023 season",
+        "image":"./assets/blog2img.jpg",
+        "content" : "dipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsan. Cras sollicitudin, ipsum eget blandit pulvinar. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.",
+        "like" : "80",
+        "comments" : "4"
+    },    {
         "id":"1",
         "day": "3",
         "month": "Dec",
@@ -19,7 +40,29 @@
         "image":"./assets/blog1img.jpg",
         "content" : "dipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsan. Cras sollicitudin, ipsum eget blandit pulvinar. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.",
         "like" : "80",
-        "Comments" : "4" 
+        "comments" : "4" 
+    },
+    {
+        "id":"1",
+        "day": "3",
+        "month": "Dec",
+        "year": "2023",
+        "title": "The game is on! Watch the best highlights of the 2023 season",
+        "image":"./assets/blog2img.jpg",
+        "content" : "dipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsan. Cras sollicitudin, ipsum eget blandit pulvinar. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.",
+        "like" : "80",
+        "comments" : "4"
+    },
+    {
+        "id":"3",
+        "day": "3",
+        "month": "Dec",
+        "year": "2023",
+        "title": "The game is on! Watch the best highlights of the 2023 season",
+        "image":"./assets/blog2img.jpg",
+        "content" : "dipiscing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua. Ut enim ad minim veniam. Sed eget viverra egestas nisi in consequat. Fusce sodales augue a accumsan. Cras sollicitudin, ipsum eget blandit pulvinar. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.",
+        "like" : "80",
+        "comments" : "4"
     }
     
 ]
